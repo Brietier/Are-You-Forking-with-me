@@ -1,0 +1,36 @@
+html,body {
+    margin: 0px;
+    padding: 0px;
+}
+span {
+    font-family: 'Rock Salt';
+    font-size: 36px;
+    color: white;
+    margin-left: 59px;
+    
+}
+.page1 {
+    background-color: #EE7470;
+    height: 126px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+.homenav {
+    color: white;
+    text-decoration: none;
+    font-family: 'Quicksand';
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 24px;
+    padding: 10px 50px;
+    margin: 47px 67px 47px 67px;
+ 
+}
+.one {
+    background-image: url("images/test.png");
+    margin: auto;
+    background-repeat: no-repeat;
+    width: 1690px;
+}
+a
