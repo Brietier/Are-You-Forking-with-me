@@ -7,7 +7,7 @@ span {
     font-size: 36px;
     color: white;
     margin-left: 59px;
-
+    
 }
 h1 {
     font-family: 'Quicksand';
@@ -36,11 +36,10 @@ iframe {
     border: none;
     margin-top: 50px;
 }
-table {
+table { 
     margin: auto;
-    align-items: center;
-}
-tr, td {
+}  
+tr {
     padding: 8px;
 }
 footer{
@@ -50,8 +49,10 @@ footer{
 .test{
     margin-left: 200px;
 }
-.storybck {
-    background-color: #FCE57F;
+
+/* home page start */
+.begin {
+    background-image: url("images/bluehalf.png"); 
 }
 .page1 {
     background-color: #72CAC3;
@@ -60,33 +61,6 @@ footer{
     display: flex;
     flex-direction: row;
 }
-.page2 {
-    background-color: #FCE57F;
-    height: 126px;
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-.page3 {
-    background-color: #72CAC3;
-    height: 126px;
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-.page4{
-  background-color: #679DA9;
-  height: 126px;
-  margin: auto;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-
-
-}
-
 .home {
     color: white;
     font-family: 'Rock Salt';
@@ -104,43 +78,8 @@ footer{
     padding: 10px 50px;
     height: 20px;
     margin: 40px;
-
-}
-.storynav {
-    color: #2A525B;
-    text-decoration: none;
-    font-family: 'Quicksand';
-    border: 2px solid #2A525B;
-    border-radius: 24px;
-    padding: 10px 50px;
-    height: 20px;
-    margin: 40px;
 }
 .page1 .homenav:hover {
-    background-color: white;
-    color: #72CAC3;
-    text-decoration: none;
-    font-weight: bold;
-    font-family: 'Quicksand';
-    border: 2px solid white;
-    border-radius: 24px;
-    padding: 10px 50px;
-    height: 20px;
-    margin: 40px;
-}
-.page2 .storynav:hover {
-    background-color: white;
-    color: #2A525B;
-    text-decoration: none;
-    font-weight: bold;
-    font-family: 'Quicksand';
-    border: 2px solid white;
-    border-radius: 24px;
-    padding: 10px 50px;
-    height: 20px;
-    margin: 40px;
-}
-.page3 .choosenav:hover {
     background-color: white;
     color: #72CAC3;
     text-decoration: none;
@@ -164,6 +103,22 @@ footer{
     height: 20px;
     margin: 40px;
 }
+
+/* home page end */
+
+/* story page start */
+
+.page2 {
+    background-color: #FCE57F;
+    height: 126px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;  
+    align-items: center;
+}
+.storybck {
+    background-color: #FCE57F;
+}
 .storyhighlight {
     background-color: white;
     color: #2A525B;
@@ -184,6 +139,91 @@ footer{
     margin-right: 250px;
     margin-top:50px;
 }
+.storynav {
+    color: #2A525B;
+    text-decoration: none;
+    font-family: 'Quicksand';
+    border: 2px solid #2A525B;
+    border-radius: 24px;
+    padding: 10px 50px;
+    height: 20px;
+    margin: 40px;
+}
+
+.page2 .storynav:hover {
+    background-color: white;
+    color: #2A525B;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Quicksand';
+    border: 2px solid white;
+    border-radius: 24px;
+    padding: 10px 50px;
+    height: 20px;
+    margin: 40px;
+}
+.storyfoot {
+    background-color: #FCE57F;
+    height: 30px;
+}
+.storyfoot {
+    background-color: #FCE57F;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 46%;
+    padding-right: 10%;
+    padding-top: .5%;
+    padding-bottom: .5%;
+}
+.left {
+    width: 40%;
+    margin-left: 130px;
+    padding-top: 130px;
+    float: left;
+    
+}
+.leftp {
+    color: white;
+    font-family: 'Quicksand';
+    font-size: 13px;
+    text-align: justify;
+    border-right: 2px solid white;
+    padding-right: 100px;
+    
+}
+.right {
+    width: 40%;
+    height: 540px;
+    background-color: grey;
+    float: left;
+    margin: 70px;
+}
+
+/* story page end */
+
+/* choose sign page */
+.page3 {
+    background-color: #72CAC3;
+    height: 126px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;  
+    align-items: center;
+}
+.page3 .choosenav:hover {
+    background-color: white;
+    color: #72CAC3;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Quicksand';
+    border: 2px solid white;
+    border-radius: 24px;
+    padding: 10px 50px;
+    height: 20px;
+    margin: 40px;
+}
 .chooseback {
     background-color: white;
 }
@@ -195,7 +235,7 @@ footer{
     border-radius: 24px;
     padding: 10px 50px;
     height: 20px;
-    margin: 40px;
+    margin: 40px; 
 }
 .choosehighlight {
     background-color: white;
@@ -216,9 +256,13 @@ footer{
     margin-left: 59px;
     margin-right: 150px;
 }
-.begin {
-    background-image: url("images/bluehalf.png");
+.choosefoot {
+    background-color: #72CAC3;
+    height:30px;
 }
+
+/* choose sign end */
+
 .one {
    margin: 0 auto 0 auto;
    width: 1020px;
@@ -233,44 +277,9 @@ footer{
 .three {
     margin: 100px 300px;
 }
-.left {
-    width: 40%;
-    margin-left: 130px;
-    padding-top: 130px;
-    float: left;
 
-}
-.leftp {
-    color: white;
-    font-family: 'Quicksand';
-    font-size: 13px;
-    text-align: justify;
-    border-right: 2px solid white;
-    padding-right: 100px;
+/* filter button */
 
-}
-.right {
-    width: 40%;
-    height: 540px;
-    background-color: grey;
-    float: left;
-    margin: 70px;
-}
-.storyfoot {
-    background-color: #FCE57F;
-    height: 30px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding-left: 46%;
-    padding-right: 10%;
-    padding-top: .5%;
-    padding-bottom: .5%;
-}
-.choosefoot {
-    background-color: #72CAC3;
-    height:30px;
-}
 .dropdown {
   margin-left: 70px;
 }
@@ -281,7 +290,7 @@ footer{
   font-size: 20px;
   width: 140px;
   padding: 16px;
-  border: 2px solid black;
+  border: 2px solid black; 
   border-radius: 10px;
 }
 .dropdownoptions {
@@ -308,6 +317,57 @@ footer{
 .dropdown:hover .dropbutt  {
     background-color: #72CAC3;
 }
+/* filter button end */
+
+/* hover effect for images */
+
+.contain {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    width: 200px;
+}
+.rent {
+    border: 2px solid white;
+    width: 100px;
+    height: 30px;
+    font-family: 'Quicksand';
+    text-align: center;
+    margin: auto;
+}
+.transparentbox {
+    position: absolute;
+    left: 42px;
+    top: 275px;
+    opacity: 0.90;
+    background-color: rgba(114, 202, 195, 0.83);
+    width:200px;
+    height:75px;
+    font-family: 'Quicksand';
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    transition: .5s ease;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.image {
+  display: block;
+  width: 200px;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.contain:hover .transparentbox {
+  top: 170px;
+}
+.contain:hover .image {
+    opacity: 1;
+}
+/* hover image effect end */
+
+/* footer */
+
 .foot{
   background-color: #679DA9;
   height: 65px;
