@@ -365,8 +365,27 @@ footer{
     opacity: 1;
 }
 /* hover image effect end */
-
-/* footer */
+/* faq */ 
+.page4 {
+    background-color: #FCE57F;
+    height: 126px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;  
+    align-items: center;
+}
+page4 .storynav:hover {
+    background-color: white;
+    color: #2A525B;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Quicksand';
+    border: 2px solid white;
+    border-radius: 24px;
+    padding: 10px 50px;
+    height: 20px;
+    margin: 40px;
+}
 
 .foot{
   background-color: #679DA9;
@@ -381,7 +400,6 @@ footer{
 }
 .p4{
   background-color: #72CAC3;
-
 }
 .h14{
   color: white;
@@ -395,3 +413,49 @@ footer{
   color: white;
   padding-left: 10%;
 }
+.quesbody {
+    background-color: #72CAC3;
+}
+.quesnav {
+    color: #2A525B;
+    text-decoration: none;
+    font-family: 'Quicksand';
+    border: 2px solid #2A525B;
+    border-radius: 24px;
+    padding: 10px 50px;
+    height: 20px;
+    margin: 40px;
+}
+
+.page4 .quesnav:hover {
+    background-color: white;
+    color: #2A525B;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Quicksand';
+    border: 2px solid white;
+    border-radius: 24px;
+    padding: 10px 50px;
+    height: 20px;
+    margin: 40px;
+}
+.queshighlight {
+    background-color: white;
+    color: #72CAC3;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Quicksand';
+    border: 3px solid white;
+    border-radius: 24px;
+    padding: 10px 50px;
+    height: 20px;
+    margin: 40px;
+}
+.ques {
+    color: white;
+    font-family: 'Rock Salt';
+    font-size: 36px;
+    margin-left: 59px;
+    margin-right: 150px;
+}
+/* faq end */
