@@ -17,7 +17,11 @@ span {
     flex-direction: row;
 }
 .page4{
-  background-color: #72CAC3;
+  background-color: #679DA9;
+  height:126px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
 }
 .homenav {
     color: white;
