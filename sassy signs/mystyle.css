@@ -261,8 +261,8 @@ footer{
     height: 30px;
     display: flex;
     flex-direction: row;
-    align-items: baseline;
-    padding-left:43%;
+    align-items: center;
+    padding-left: 46%;
     padding-right: 10%;
     padding-top: .5%;
     padding-bottom: .5%;
@@ -310,9 +310,10 @@ footer{
 }
 .foot{
   background-color: #679DA9;
+  height: 65px;
   display: flex;
   flex-direction: row;
-  align-items: baseline;
+
   padding-left:43%;
   padding-right: 10%;
   padding-top: .5%;
