@@ -7,7 +7,7 @@ span {
     font-size: 36px;
     color: white;
     margin-left: 59px;
-    
+
 }
 h1 {
     font-family: 'Quicksand';
@@ -36,12 +36,16 @@ iframe {
     border: none;
     margin-top: 50px;
 }
-table { 
+table {
     margin: auto;
     align-items: center;
-}  
+}
 tr, td {
     padding: 8px;
+}
+footer{
+  background-color: #679DA9;
+  height: inherit;
 }
 .test{
     margin-left: 200px;
@@ -61,7 +65,7 @@ tr, td {
     height: 126px;
     margin: auto;
     display: flex;
-    flex-direction: row;  
+    flex-direction: row;
     align-items: center;
 }
 .page3 {
@@ -69,7 +73,7 @@ tr, td {
     height: 126px;
     margin: auto;
     display: flex;
-    flex-direction: row;  
+    flex-direction: row;
     align-items: center;
 }
 .home {
@@ -89,7 +93,7 @@ tr, td {
     padding: 10px 50px;
     height: 20px;
     margin: 40px;
- 
+
 }
 .storynav {
     color: #2A525B;
@@ -180,7 +184,7 @@ tr, td {
     border-radius: 24px;
     padding: 10px 50px;
     height: 20px;
-    margin: 40px; 
+    margin: 40px;
 }
 .choosehighlight {
     background-color: white;
@@ -202,7 +206,7 @@ tr, td {
     margin-right: 150px;
 }
 .begin {
-    background-image: url("images/bluehalf.png"); 
+    background-image: url("images/bluehalf.png");
 }
 .one {
    margin: 0 auto 0 auto;
@@ -223,7 +227,7 @@ tr, td {
     margin-left: 130px;
     padding-top: 130px;
     float: left;
-    
+
 }
 .leftp {
     color: white;
@@ -232,7 +236,7 @@ tr, td {
     text-align: justify;
     border-right: 2px solid white;
     padding-right: 100px;
-    
+
 }
 .right {
     width: 40%;
@@ -259,7 +263,7 @@ tr, td {
   font-size: 20px;
   width: 140px;
   padding: 16px;
-  border: 2px solid black; 
+  border: 2px solid black;
   border-radius: 10px;
 }
 .dropdownoptions {
@@ -285,4 +289,11 @@ tr, td {
 
 .dropdown:hover .dropbutt  {
     background-color: #72CAC3;
+}
+.foot{
+  display: flex;
+  flex-direction: row;
+  padding-left:43%;
+  padding-top: .5%;
+  padding-bottom: .5%;
 }
