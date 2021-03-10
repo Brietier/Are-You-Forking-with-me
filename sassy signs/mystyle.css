@@ -7,45 +7,282 @@ span {
     font-size: 36px;
     color: white;
     margin-left: 59px;
-
+    
+}
+h1 {
+    font-family: 'Quicksand';
+    font-size: 40px;
+    font-weight: bolder;
+    color: #72CAC3;
+    text-align: center;
+    margin: 100px 0px 0px 0px;
+}
+h2 {
+    font-family: 'Quicksand';
+    font-size: 36px;
+    color: white;
+    margin-left: 90px;
+    font-weight: bold;
+}
+h3 {
+    font-family: 'Quicksand';
+    font-size: 20px;
+    color: #72CAC3;
+    text-align: center;
+    margin: 0px;
+    padding-top: 30px;
+}
+iframe {
+    border: none;
+    margin-top: 50px;
+}
+table { 
+    margin: auto;
+    align-items: center;
+}  
+tr, td {
+    padding: 8px;
+}
+.test{
+    margin-left: 200px;
+}
+.storybck {
+    background-color: #FCE57F;
 }
 .page1 {
-    background-color: #EE7470;
+    background-color: #72CAC3;
     height: 126px;
     margin: auto;
     display: flex;
     flex-direction: row;
 }
-.page4{
-  background-color: #679DA9;
-  height:126px;
-  margin: auto;
-  display: flex;
-  flex-direction: row;
+.page2 {
+    background-color: #FCE57F;
+    height: 126px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;  
+    align-items: center;
 }
-
+.page3 {
+    background-color: #72CAC3;
+    height: 126px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;  
+    align-items: center;
+}
+.home {
+    color: white;
+    font-family: 'Rock Salt';
+    font-size: 36px;
+    margin-left: 80px;
+    margin-right: 250px;
+    margin-top: 20px;
+}
 .homenav {
     color: white;
     text-decoration: none;
     font-family: 'Quicksand';
     border: 2px solid white;
-    padding: 10px;
     border-radius: 24px;
     padding: 10px 50px;
-    margin: 47px 67px 47px 67px;
-
+    height: 20px;
+    margin: 40px;
+ 
+}
+.storynav {
+    color: #2A525B;
+    text-decoration: none;
+    font-family: 'Quicksand';
+    border: 2px solid #2A525B;
+    border-radius: 24px;
+    padding: 10px 50px;
+    height: 20px;
+    margin: 40px;
+}
+.page1 .homenav:hover {
+    background-color: white;
+    color: #72CAC3;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Quicksand';
+    border: 2px solid white;
+    border-radius: 24px;
+    padding: 10px 50px;
+    height: 20px;
+    margin: 40px;
+}
+.page2 .storynav:hover {
+    background-color: white;
+    color: #2A525B;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Quicksand';
+    border: 2px solid white;
+    border-radius: 24px;
+    padding: 10px 50px;
+    height: 20px;
+    margin: 40px;
+}
+.page3 .choosenav:hover {
+    background-color: white;
+    color: #72CAC3;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Quicksand';
+    border: 2px solid white;
+    border-radius: 24px;
+    padding: 10px 50px;
+    height: 20px;
+    margin: 40px;
+}
+.homehighlight {
+    background-color: white;
+    color: #72CAC3;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Quicksand';
+    border: 3px solid white;
+    border-radius: 24px;
+    padding: 10px 50px;
+    height: 20px;
+    margin: 40px;
+}
+.storyhighlight {
+    background-color: white;
+    color: #2A525B;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Quicksand';
+    border: 3px solid white;
+    border-radius: 24px;
+    padding: 10px 50px;
+    height: 20px;
+    margin: 40px;
+}
+.story {
+    color: #2A525B;
+    font-family: 'Rock Salt';
+    font-size: 36px;
+    margin-left: 80px;
+    margin-right: 250px;
+    margin-top:50px;
+}
+.chooseback {
+    background-color: white;
+}
+.choosenav {
+    color: white;
+    text-decoration: none;
+    font-family: 'Quicksand';
+    border: 2px solid white;
+    border-radius: 24px;
+    padding: 10px 50px;
+    height: 20px;
+    margin: 40px; 
+}
+.choosehighlight {
+    background-color: white;
+    color: #72CAC3;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Quicksand';
+    border: 3px solid white;
+    border-radius: 24px;
+    padding: 10px 50px;
+    height: 20px;
+    margin: 40px;
+}
+.sign {
+    color: white;
+    font-family: 'Rock Salt';
+    font-size: 36px;
+    margin-left: 59px;
+    margin-right: 150px;
+}
+.begin {
+    background-image: url("images/bluehalf.png"); 
 }
 .one {
-    background-image: url("images/test.png");
-    margin: auto;
-    background-repeat: no-repeat;
-    width: 1690px;
+   margin: 0 auto 0 auto;
+   width: 1020px;
+   padding: 0px;
 }
+.two {
+    background-color: #EE7470;
+    width: 1500px;
+    height: 800px;
+    margin: auto;
+}
+.three {
+    margin: 100px 300px;
+}
+.left {
+    width: 40%;
+    margin-left: 130px;
+    padding-top: 130px;
+    float: left;
+    
+}
+.leftp {
+    color: white;
+    font-family: 'Quicksand';
+    font-size: 13px;
+    text-align: justify;
+    border-right: 2px solid white;
+    padding-right: 100px;
+    
+}
+.right {
+    width: 40%;
+    height: 540px;
+    background-color: grey;
+    float: left;
+    margin: 70px;
+}
+.storyfoot {
+    background-color: #FCE57F;
+    height: 30px;
+}
+.choosefoot {
+    background-color: #72CAC3;
+    height:30px;
+}
+.dropdown {
+  margin-left: 70px;
+}
+.dropbutt {
+  color: black;
+  font-family: 'Quicksand';
+  background-color: white;
+  font-size: 20px;
+  width: 140px;
+  padding: 16px;
+  border: 2px solid black; 
+  border-radius: 10px;
+}
+.dropdownoptions {
+  display: none;
+  font-family: 'Quicksand';
+  position: absolute;
+  background-color: #72CAC3;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdownoptions a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdownoptions a:hover {
+    background-color: white;
+}
+.dropdown:hover .dropdownoptions {
+    display: block;}
 
-.foot{
-  background-color: #679DA9;
-  height:126px;
-  margin: auto;
-  display: flex;
-  flex-direction: row;
+.dropdown:hover .dropbutt  {
+    background-color: #72CAC3;
 }
