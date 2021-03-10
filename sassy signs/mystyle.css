@@ -23,6 +23,7 @@ span {
   display: flex;
   flex-direction: row;
 }
+
 .homenav {
     color: white;
     text-decoration: none;
@@ -40,4 +41,11 @@ span {
     background-repeat: no-repeat;
     width: 1690px;
 }
-a
+
+.foot{
+  background-color: #679DA9;
+  height:126px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
