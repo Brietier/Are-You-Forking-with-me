@@ -163,19 +163,14 @@ footer{
     margin: 40px;
 }
 .storyfoot {
-    background-color: #FCE57F;
-    height: 30px;
-}
-.storyfoot {
-    background-color: #FCE57F;
-    height: 30px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding-left: 46%;
-    padding-right: 10%;
-    padding-top: .5%;
-    padding-bottom: .5%;
+background-color: #FCE57F;
+ height: 65px;
+  display: flex;
+  flex-direction: row;
+  padding-right: 10%;
+  padding-left: 43%; 
+  padding-top: .5%;
+  padding-bottom: .5%;
 }
 .left {
     width: 40%;
@@ -210,7 +205,6 @@ footer{
     margin: auto;
     display: flex;
     flex-direction: row;
-    align-items: center;
 }
 .page3 .choosenav:hover {
     background-color: white;
@@ -253,12 +247,19 @@ footer{
     color: white;
     font-family: 'Rock Salt';
     font-size: 36px;
-    margin-left: 59px;
-    margin-right: 150px;
+    margin-left: 80px;
+    margin-right: 250px;
+    margin-top: 20px;
 }
 .choosefoot {
-    background-color: #72CAC3;
-    height:30px;
+  background-color: #72CAC3;
+  height: 65px;
+  display: flex;
+  flex-direction: row;
+  padding-right: 10%;
+  padding-left: 43%; 
+  padding-top: .5%;
+  padding-bottom: .5%;
 }
 
 /* choose sign end */
@@ -365,117 +366,13 @@ footer{
     opacity: 1;
 }
 /* hover image effect end */
-/* faq FCE57F*/
-
-.page4 {
-    background-color: #679DA9;
-    height: 126px;
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-
-}
-page4 .storynav:hover {
-    background-color: white;
-    color: #2A525B;
-    text-decoration: none;
-    font-weight: bold;
-    font-family: 'Quicksand';
-    border: 2px solid white;
-    border-radius: 24px;
-    padding: 10px 50px;
-    height: 20px;
-    margin: 40px;
-
-}
-
-.foot{
-  background-color: #679DA9;
-  height: 65px;
-  display: flex;
-  flex-direction: row;
-  padding-right: 10%;
-
-  padding-left:43%;
-  padding-right: 10%;
-  padding-top: .5%;
-  padding-bottom: .5%;
-}
-.p4{
-  background-color: #72CAC3;
-  height: 800px;
-  text-align: left;
-}
-.h14{
-  color: white;
-  padding-top: 2%;
-  text-align: center;
-
-}
-.h34{
-  color: white;
-  text-align: left;
-  padding-left: 10%;
-  padding-right: 30%;
-}
-.pa4{
-  color: white;
-  padding-left: 10%;
-  padding-right: 10%;
-}
-.quesbody {
-    background-color: #72CAC3;
-}
-.quesnav {
-    color: #2A525B;
-    text-decoration: none;
-    font-family: 'Quicksand';
-    border: 2px solid #2A525B;
-    border-radius: 24px;
-    padding: 10px 50px;
-    height: 20px;
-    margin: 40px;
-}
-
-.page4 .quesnav:hover {
-    background-color: white;
-    color: #2A525B;
-    text-decoration: none;
-    font-weight: bold;
-    font-family: 'Quicksand';
-    border: 2px solid white;
-    border-radius: 24px;
-    padding: 10px 50px;
-    height: 20px;
-    margin: 40px;
-}
-.queshighlight {
-    background-color: white;
-    color: #72CAC3;
-    text-decoration: none;
-    font-weight: bold;
-    font-family: 'Quicksand';
-    border: 3px solid white;
-    border-radius: 24px;
-    padding: 10px 50px;
-    height: 20px;
-    margin: 40px;
-}
-.ques {
-    color: white;
-    font-family: 'Rock Salt';
-    font-size: 36px;
-    margin-left: 59px;
-    margin-right: 150px;
-}
-
 /* Brie Updates on 4.11.21 */
 
 .contactbox{
  background-color: #fff;
  height: 550px;
  width: 1000px;
- margin-left: 800px;
+ margin-left: 850px;
  margin-top: 10%;
  padding: 30px 40px;
  box-sizing: border-box;
@@ -544,6 +441,110 @@ page4 .storynav:hover {
  font-family: 'Quicksand';
  text-decoration: none;
 
+}
+/* faq FCE57F*/
+
+.page4 {
+    background-color: #679DA9;
+    height: 126px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+
+}
+page4 .storynav:hover {
+    background-color: white;
+    color: #2A525B;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Quicksand';
+    border: 2px solid white;
+    border-radius: 24px;
+    padding: 10px 50px;
+    height: 20px;
+    margin: 40px;
+
+}
+
+.faqfoot{
+  background-color: #679DA9;
+  height: 65px;
+  display: flex;
+  flex-direction: row;
+  padding-right: 10%;
+  padding-left: 43%; 
+  padding-top: .5%;
+  padding-bottom: .5%;
+}
+.p4{
+  background-color: #72CAC3;
+  height: 800px;
+  text-align: left;
+}
+.h14{
+  color: white;
+  padding-top: 2%;
+  text-align: center;
+  font-family: 'Quicksand';
+
+}
+.h34{
+  color: white;
+  text-align: left;
+  padding-left: 10%;
+  padding-right: 30%;
+}
+.pa4{
+  color: white;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: 'Quicksand';
+}
+.quesbody {
+    background-color: #72CAC3;
+}
+.quesnav {
+    color: white;
+    text-decoration: none;
+    font-family: 'Quicksand';
+    border: 2px solid white;
+    border-radius: 24px;
+    padding: 10px 50px;
+    height: 20px;
+    margin: 40px;
+}
+
+.page4 .quesnav:hover {
+    background-color: white;
+    color: #679DA9;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Quicksand';
+    border: 2px solid white;
+    border-radius: 24px;
+    padding: 10px 50px;
+    height: 20px;
+    margin: 40px;
+}
+.queshighlight {
+    background-color: white;
+    color: #679DA9;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Quicksand';
+    border: 3px solid white;
+    border-radius: 24px;
+    padding: 10px 50px;
+    height: 20px;
+    margin: 40px;
+}
+.ques {
+    color: white;
+    font-family: 'Rock Salt';
+     font-size: 36px;
+    margin-left: 80px;
+    margin-right: 250px;
+    margin-top: 20px;
 }
 /* faq end */
 
@@ -614,17 +615,4 @@ padding: 50px;
 
 #right img:hover {
       opacity:0;
-}
-/* Brie footer update for choosesign page 4/15 */
-.choosefoot{
-  background-color: #72CAC3;
-  height: 30px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding-left: 46%;
-  padding-right: 10%;
-  padding-top: .5%;
-  padding-bottom: .5%;
-
 }
