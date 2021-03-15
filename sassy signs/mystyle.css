@@ -219,7 +219,8 @@ background-color: #FCE57F;
     margin: 40px;
 }
 .chooseback {
-    background-color: white;
+    /*background-color: white; */
+    background-image: url('images/bluehalf.png')
 }
 .choosenav {
     color: white;
@@ -270,7 +271,8 @@ background-color: #FCE57F;
    padding: 0px;
 }
 .two {
-    background-color: #EE7470;
+    background-image: url('images/pinkhalf.png');
+    /*background-color: #EE7470;*/
     width: 1500px;
     height: 800px;
     margin: auto;
