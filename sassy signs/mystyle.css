@@ -394,6 +394,7 @@ page4 .storynav:hover {
   height: 65px;
   display: flex;
   flex-direction: row;
+  padding-right: 10%;
 
   padding-left:43%;
   padding-right: 10%;
