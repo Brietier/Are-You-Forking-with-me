@@ -168,7 +168,7 @@ background-color: #FCE57F;
   display: flex;
   flex-direction: row;
   padding-right: 10%;
-  padding-left: 43%; 
+  padding-left: 43%;
   padding-top: .5%;
   padding-bottom: .5%;
 }
@@ -258,7 +258,7 @@ background-color: #FCE57F;
   display: flex;
   flex-direction: row;
   padding-right: 10%;
-  padding-left: 43%; 
+  padding-left: 43%;
   padding-top: .5%;
   padding-bottom: .5%;
 }
@@ -374,7 +374,7 @@ background-color: #FCE57F;
  background-color: #fff;
  height: 550px;
  width: 1000px;
- margin-left: 850px;
+ margin-left: 675px;
  margin-top: 10%;
  padding: 30px 40px;
  box-sizing: border-box;
@@ -474,7 +474,7 @@ page4 .storynav:hover {
   display: flex;
   flex-direction: row;
   padding-right: 10%;
-  padding-left: 43%; 
+  padding-left: 43%;
   padding-top: .5%;
   padding-bottom: .5%;
 }
