@@ -459,3 +459,51 @@ page4 .storynav:hover {
     margin-right: 150px;
 }
 /* faq end */
+
+/* catalog */
+
+.contain {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    width: 200px;
+}
+.rent {
+    border: 2px solid white;
+    width: 100px;
+    height: 30px;
+    font-family: 'Quicksand';
+    text-align: center;
+    margin: auto;
+}
+.transparentbox {
+    position: absolute;
+    left: 42px;
+    top: 275px;
+    opacity: 0.90;
+    background-color: rgba(114, 202, 195, 0.83);
+    width:200px;
+    height:75px;
+    font-family: 'Quicksand';
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    transition: .5s ease;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.image {
+  display: block;
+  width: 200px;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.contain:hover .transparentbox {
+  top: 170px;
+}
+.contain:hover .image {
+    opacity: 1;
+}
+
+/*catalog end */
