@@ -7,7 +7,7 @@ span {
     font-size: 36px;
     color: white;
     margin-left: 59px;
-    
+
 }
 h1 {
     font-family: 'Quicksand';
@@ -36,9 +36,9 @@ iframe {
     border: none;
     margin-top: 50px;
 }
-table { 
+table {
     margin: auto;
-}  
+}
 tr {
     padding: 8px;
 }
@@ -52,7 +52,7 @@ footer{
 
 /* home page start */
 .begin {
-    background-image: url("images/bluehalf.png"); 
+    background-image: url("images/bluehalf.png");
 }
 .page1 {
     background-color: #72CAC3;
@@ -113,7 +113,7 @@ footer{
     height: 126px;
     margin: auto;
     display: flex;
-    flex-direction: row;  
+    flex-direction: row;
     align-items: center;
 }
 .storybck {
@@ -182,7 +182,7 @@ footer{
     margin-left: 130px;
     padding-top: 130px;
     float: left;
-    
+
 }
 .leftp {
     color: white;
@@ -191,7 +191,7 @@ footer{
     text-align: justify;
     border-right: 2px solid white;
     padding-right: 100px;
-    
+
 }
 .right {
     width: 40%;
@@ -209,7 +209,7 @@ footer{
     height: 126px;
     margin: auto;
     display: flex;
-    flex-direction: row;  
+    flex-direction: row;
     align-items: center;
 }
 .page3 .choosenav:hover {
@@ -235,7 +235,7 @@ footer{
     border-radius: 24px;
     padding: 10px 50px;
     height: 20px;
-    margin: 40px; 
+    margin: 40px;
 }
 .choosehighlight {
     background-color: white;
@@ -290,7 +290,7 @@ footer{
   font-size: 20px;
   width: 140px;
   padding: 16px;
-  border: 2px solid black; 
+  border: 2px solid black;
   border-radius: 10px;
 }
 .dropdownoptions {
@@ -365,14 +365,15 @@ footer{
     opacity: 1;
 }
 /* hover image effect end */
-/* faq */ 
+/* faq FCE57F*/
+
 .page4 {
-    background-color: #FCE57F;
+    background-color: #679DA9;
     height: 126px;
     margin: auto;
     display: flex;
-    flex-direction: row;  
-    align-items: center;
+    flex-direction: row;
+
 }
 page4 .storynav:hover {
     background-color: white;
@@ -385,6 +386,7 @@ page4 .storynav:hover {
     padding: 10px 50px;
     height: 20px;
     margin: 40px;
+
 }
 
 .foot{
@@ -400,18 +402,25 @@ page4 .storynav:hover {
 }
 .p4{
   background-color: #72CAC3;
+  height: 800px;
+  text-align: left;
 }
 .h14{
   color: white;
   padding-top: 2%;
+  text-align: center;
 
 }
 .h34{
   color: white;
+  text-align: left;
+  padding-left: 10%;
+  padding-right: 30%;
 }
 .pa4{
   color: white;
   padding-left: 10%;
+  padding-right: 10%;
 }
 .quesbody {
     background-color: #72CAC3;
@@ -459,3 +468,80 @@ page4 .storynav:hover {
     margin-right: 150px;
 }
 /* faq end */
+
+/* Brie Updates on 4.11.21 */
+
+.contactbox{
+  background-color: #fff;
+  height: 550px;
+  width: 1000px;
+  margin-left: 800px;
+  margin-top: 10%;
+  padding: 30px 40px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  box-shadow: 0 0 20px 0 #999;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: row;
+  justify-content: space-around;
+}
+.contactbox h2{
+  color: black;
+  text-align: left;
+  padding-left: 30%;
+}
+.txtb{
+  border: 1px solid gray;
+  margin: 8px o;
+  padding: 12px 18px;
+  border-radius: 8px;
+  margin-top: 8px;
+}
+.input-field{
+    border: 1px solid gray;
+    margin: 8px 0;
+    padding: 12px 18px;
+    border-radius: 8px
+  }
+.input-field, .input-field textarea-field{
+  width: 100%;
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 18px;
+  margin-top: 6px;
+
+}
+.txtb label{
+  display: block;
+  text-align: left;
+  color: #333;
+  font-family: 'Quicksand';
+}
+.txtb input, .txtb textarea{
+  width: 100%;
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 18px;
+  margin-top: 6px;
+}
+.btn{
+  display: inline-block;
+  background: #679DA9;
+  padding: 14px 0;
+  color: black;
+  cursor: pointer;
+  margin-top: 8px;
+  width: 100%;
+  text-align: center;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  font-family: 'Quicksand';
+  text-decoration: none;
+
+}
