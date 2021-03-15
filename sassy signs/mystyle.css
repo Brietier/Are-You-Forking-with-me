@@ -615,3 +615,16 @@ padding: 50px;
 #right img:hover {
       opacity:0;
 }
+/* Brie footer update for choosesign page 4/15 */
+.choosefoot{
+  background-color: #72CAC3;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 46%;
+  padding-right: 10%;
+  padding-top: .5%;
+  padding-bottom: .5%;
+
+}
