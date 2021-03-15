@@ -7,7 +7,7 @@ span {
     font-size: 36px;
     color: white;
     margin-left: 59px;
-    
+
 }
 h1 {
     font-family: 'Quicksand';
@@ -36,9 +36,9 @@ iframe {
     border: none;
     margin-top: 50px;
 }
-table { 
+table {
     margin: auto;
-}  
+}
 tr {
     padding: 8px;
 }
@@ -52,7 +52,7 @@ footer{
 
 /* home page start */
 .begin {
-    background-image: url("images/bluehalf.png"); 
+    background-image: url("images/bluehalf.png");
 }
 .page1 {
     background-color: #72CAC3;
@@ -113,7 +113,7 @@ footer{
     height: 126px;
     margin: auto;
     display: flex;
-    flex-direction: row;  
+    flex-direction: row;
     align-items: center;
 }
 .storybck {
@@ -182,7 +182,7 @@ footer{
     margin-left: 130px;
     padding-top: 130px;
     float: left;
-    
+
 }
 .leftp {
     color: white;
@@ -191,7 +191,7 @@ footer{
     text-align: justify;
     border-right: 2px solid white;
     padding-right: 100px;
-    
+
 }
 .right {
     width: 40%;
@@ -209,7 +209,7 @@ footer{
     height: 126px;
     margin: auto;
     display: flex;
-    flex-direction: row;  
+    flex-direction: row;
     align-items: center;
 }
 .page3 .choosenav:hover {
@@ -235,7 +235,7 @@ footer{
     border-radius: 24px;
     padding: 10px 50px;
     height: 20px;
-    margin: 40px; 
+    margin: 40px;
 }
 .choosehighlight {
     background-color: white;
@@ -290,7 +290,7 @@ footer{
   font-size: 20px;
   width: 140px;
   padding: 16px;
-  border: 2px solid black; 
+  border: 2px solid black;
   border-radius: 10px;
 }
 .dropdownoptions {
@@ -365,14 +365,15 @@ footer{
     opacity: 1;
 }
 /* hover image effect end */
-/* faq */ 
+/* faq FCE57F*/
+
 .page4 {
-    background-color: #FCE57F;
+    background-color: #679DA9;
     height: 126px;
     margin: auto;
     display: flex;
-    flex-direction: row;  
-    align-items: center;
+    flex-direction: row;
+
 }
 page4 .storynav:hover {
     background-color: white;
@@ -385,6 +386,7 @@ page4 .storynav:hover {
     padding: 10px 50px;
     height: 20px;
     margin: 40px;
+
 }
 
 .foot{
@@ -392,6 +394,7 @@ page4 .storynav:hover {
   height: 65px;
   display: flex;
   flex-direction: row;
+  padding-right: 10%;
 
   padding-left:43%;
   padding-right: 10%;
@@ -400,18 +403,25 @@ page4 .storynav:hover {
 }
 .p4{
   background-color: #72CAC3;
+  height: 800px;
+  text-align: left;
 }
 .h14{
   color: white;
   padding-top: 2%;
+  text-align: center;
 
 }
 .h34{
   color: white;
+  text-align: left;
+  padding-left: 10%;
+  padding-right: 30%;
 }
 .pa4{
   color: white;
   padding-left: 10%;
+  padding-right: 10%;
 }
 .quesbody {
     background-color: #72CAC3;
