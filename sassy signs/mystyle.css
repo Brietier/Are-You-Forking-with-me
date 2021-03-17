@@ -46,11 +46,19 @@ footer{
   height: inherit;
   margin: none;
 }
-
-.test{
-    margin-left: 200px;
+.heroes {
+    font-family: 'Rock Salt';
+    font-size: 36px;
+    color: black;
+    text-align: center;
+    color: #72CAC3;
 }
-
+.parahero {
+    font-family: 'Quicksand';
+    color: #72CAC3;
+    font-size: 20px;
+    text-align: center;
+}
 /* home page start */
 .begin {
     background-image: url("images/bluehalf.png");
@@ -171,7 +179,7 @@ background-color: #FCE57F;
   display: flex;
   flex-direction: row;
   padding-right: 10%;
-  padding-left: 43%;
+  padding-left: 43%; 
   padding-top: .5%;
   padding-bottom: .5%;
 }
@@ -261,7 +269,7 @@ background-color: #FCE57F;
   display: flex;
   flex-direction: row;
   padding-right: 10%;
-  padding-left: 43%;
+  padding-left: 43%; 
   padding-top: .5%;
   padding-bottom: .5%;
 }
@@ -371,13 +379,13 @@ background-color: #FCE57F;
     opacity: 1;
 }
 /* hover image effect end */
-/* Brie Updates on 4.11.21 */
+/* form */
 
 .contactbox{
  background-color: #fff;
  height: 550px;
  width: 1000px;
- margin-left: 675px;
+ margin-left: 850px;
  margin-top: 10%;
  padding: 30px 40px;
  box-sizing: border-box;
@@ -450,7 +458,8 @@ background-color: #FCE57F;
 .btn:active {
            transform: scale(0.98);
            box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
-       }
+}
+
 /* faq FCE57F*/
 
 .page4 {
@@ -481,7 +490,7 @@ page4 .storynav:hover {
   display: flex;
   flex-direction: row;
   padding-right: 10%;
-  padding-left: 43%;
+  padding-left: 43%; 
   padding-top: .5%;
   padding-bottom: .5%;
 }
