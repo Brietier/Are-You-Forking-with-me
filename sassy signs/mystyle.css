@@ -23,6 +23,14 @@ label{
 #toggle{
   display: none;
 }
+.container{
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  min-height: 400px;
+}
 @media only screen and (max-width: 500px){
   label{
     display: block;
@@ -73,6 +81,25 @@ footer{
   height: inherit;
   margin: none;
 }
+.funkmasta{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.heroes {
+    font-family: 'Rock Salt';
+    font-size: 36px;
+    color: black;
+    text-align: center;
+    color: #72CAC3;
+}
+.parahero {
+    font-family: 'Quicksand';
+    color: #72CAC3;
+    font-size: 20px;
+    text-align: center;
+  }
 .toggle{
   diplay: none;
 }
@@ -95,31 +122,33 @@ footer{
 }
 .page1 {
     background-color: #72CAC3;
-    height: 12%;
+    height: 120px;
     margin: auto;
     display: flex;
     flex-direction: row;
 }
 .home {
-    color: white;
-    font-family: 'Rock Salt';
-    font-size: 25px;
-    margin-left: 80px;
-    margin-right: 250px;
-    margin-top: 20px;
+  color: white;
+  font-family: 'Rock Salt';
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  margin-right: 2%;
+  margin-top: 20px;
+  flex: 1 1 70%;
 }
 .homenav {
-    color: white;
-    text-decoration: none;
-    font-family: 'Quicksand';
-    border: 2px solid white;
-    border-radius: 24px;
-    padding: 10px 50px;
-    height: 20px;
-    margin: 40px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  color: white;
+  text-decoration: none;
+  font-family: 'Quicksand';
+  border: 2px solid white;
+  border-radius: 24px;
+  padding: 10px 50px;
+  height: 20px;
+  margin: 40px;
+  display: flex;
+  align-items: center;
 }
 .page1 .homenav:hover {
     background-color: white;
@@ -134,16 +163,16 @@ footer{
     margin: 40px;
 }
 .homehighlight {
-    background-color: white;
-    color: #72CAC3;
-    text-decoration: none;
-    font-weight: bold;
-    font-family: 'Quicksand';
-    border: 3px solid white;
-    border-radius: 24px;
-    padding: 10px 50px;
-    height: 20px;
-    margin: 40px;
+  background-color: white;
+  color: #679DA9;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Quicksand';
+  border: 3px solid white;
+  border-radius: 24px;
+  padding: 10px 50px;
+  height: 20px;
+  margin: 40px;
 }
 
 /* home page end */
@@ -152,45 +181,49 @@ footer{
 
 .page2 {
     background-color: #FCE57F;
-    height: 126px;
+    height: 120px;
     margin: auto;
     display: flex;
     flex-direction: row;
-    align-items: center;
 }
 .storybck {
     background-color: #FCE57F;
 }
 .storyhighlight {
-    background-color: white;
-    color: #2A525B;
-    text-decoration: none;
-    font-weight: bold;
-    font-family: 'Quicksand';
-    border: 3px solid white;
-    border-radius: 24px;
-    padding: 10px 50px;
-    height: 20px;
-    margin: 40px;
+  background-color: white;
+  color: #679DA9;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Quicksand';
+  border: 3px solid white;
+  border-radius: 24px;
+  padding: 10px 50px;
+  height: 20px;
+  margin: 40px;
 }
 .story {
-    color: #2A525B;
-    font-family: 'Rock Salt';
-    font-size: 36px;
-    margin-left: 80px;
-    margin-right: 250px;
-    margin-top:50px;
+  color: white;
+  font-family: 'Rock Salt';
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  margin-right: 2%;
+  margin-top: 20px;
+  flex: 1 1 70%;
 
 }
 .storynav {
-    color: #2A525B;
-    text-decoration: none;
-    font-family: 'Quicksand';
-    border: 2px solid #2A525B;
-    border-radius: 24px;
-    padding: 10px 50px;
-    height: 20px;
-    margin: 40px;
+  color: white;
+  text-decoration: none;
+  font-family: 'Quicksand';
+  border: 2px solid white;
+  border-radius: 24px;
+  padding: 10px 50px;
+  height: 20px;
+  margin: 40px;
+  display: flex;
+  align-items: center;
 }
 
 .page2 .storynav:hover {
@@ -244,7 +277,7 @@ background-color: #FCE57F;
 /* choose sign page */
 .page3 {
     background-color: #72CAC3;
-    height: 126px;
+    height: 120px;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -266,34 +299,39 @@ background-color: #FCE57F;
     background-image: url('images/bluehalf.png')
 }
 .choosenav {
-    color: white;
-    text-decoration: none;
-    font-family: 'Quicksand';
-    border: 2px solid white;
-    border-radius: 24px;
-    padding: 10px 50px;
-    height: 20px;
-    margin: 40px;
+  color: white;
+  text-decoration: none;
+  font-family: 'Quicksand';
+  border: 2px solid white;
+  border-radius: 24px;
+  padding: 10px 50px;
+  height: 20px;
+  margin: 40px;
+  display: flex;
+  align-items: center;
 }
 .choosehighlight {
-    background-color: white;
-    color: #72CAC3;
-    text-decoration: none;
-    font-weight: bold;
-    font-family: 'Quicksand';
-    border: 3px solid white;
-    border-radius: 24px;
-    padding: 10px 50px;
-    height: 20px;
-    margin: 40px;
+  background-color: white;
+  color: #679DA9;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Quicksand';
+  border: 3px solid white;
+  border-radius: 24px;
+  padding: 10px 50px;
+  height: 20px;
+  margin: 40px;
 }
 .sign {
-    color: white;
-    font-family: 'Rock Salt';
-    font-size: 36px;
-    margin-left: 80px;
-    margin-right: 250px;
-    margin-top: 20px;
+  color: white;
+  font-family: 'Rock Salt';
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  margin-right: 2%;
+  margin-top: 20px;
+  flex: 1 1 70%;
 }
 .choosefoot {
   background-color: #72CAC3;
@@ -415,10 +453,10 @@ background-color: #FCE57F;
 
 .contactbox{
  background-color: #fff;
- height: 550px;
+ height: 800px;
  width: 1000px;
- margin-left: 45%;
- margin-top: 10%;
+ margin-left: 50%;
+ margin-top: 30%;
  padding: 30px 40px;
  box-sizing: border-box;
  border-radius: 8px;
@@ -496,7 +534,7 @@ background-color: #FCE57F;
 
 .page4 {
     background-color: #679DA9;
-    height: 12%;
+    height: 120px;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -522,7 +560,7 @@ page4 .storynav:hover {
 
 .faqfoot{
   background-color: #679DA9;
-  height: 65px;
+  height: 120px;
   display: flex;
   flex-direction: row;
   padding-right: 10%;
