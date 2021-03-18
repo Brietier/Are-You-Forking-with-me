@@ -1,12 +1,39 @@
+
 html,body {
-    margin: 0%;
-    padding: 0%;
+  height: 100%;
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
 }
+
 span {
     font-family: 'Rock Salt';
     font-size: 30%;
     color: white;
     margin-left: 40%;
+
+}
+label{
+  margin: 0 40px 0 0;
+  color: white;
+  font-size: 26px;
+  line-height: 70px;
+  display: none;
+}
+#toggle{
+  display: none;
+}
+@media only screen and (max-width: 500px){
+  label{
+    display: block;
+    cursor: pointer;
+  }
+  .menu{
+    text-align: center;
+    width: 100%;
+    display: none;
+  }
+
 
 }
 h1 {
@@ -46,6 +73,10 @@ footer{
   height: inherit;
   margin: none;
 }
+.toggle{
+  diplay: none;
+}
+
 .quesflex{
   display: flex;
   flex-direction: row;
